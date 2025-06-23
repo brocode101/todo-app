@@ -24,11 +24,11 @@ const TodoForm: React.FC<TodoFormProps> = ({ onAddTodo }) => {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           placeholder="Add a new todo..."
-          className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-700 placeholder-gray-400"
+          className="flex-1 px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400"
         />
         <button
           type="submit"
-          className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200 flex items-center gap-2 font-medium"
+          className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 transition-colors duration-200 flex items-center gap-2 font-medium"
         >
           <Plus size={20} />
           <span className="hidden sm:inline">Add</span>

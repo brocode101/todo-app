@@ -51,12 +51,12 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-900">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">Todo List</h1>
-          <p className="text-gray-600">Stay organized and get things done</p>
+          <h1 className="text-4xl font-bold text-white mb-2">Todo List</h1>
+          <p className="text-gray-400">Stay organized and get things done</p>
         </div>
 
         {/* Stats */}
